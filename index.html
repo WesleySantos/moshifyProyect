@@ -15,75 +15,52 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <section class="block block--dark block--skewed-right block-showcase">
+    <section class="block">
       <header class="block__header">
-        <h2 class="block__heading">User-friendly Control Panel</h2>
+        <h2 class="block__heading">What our Customers are Saying</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias,
+          adipisci?
+        </p>
       </header>
-      <div class="container grid grid--cols-2">
-        <picture class="block-showcase__image">
-          <source
-            srcset="images/ipad.png 1x, images/ipad@2x.png 2x"
-            type="image/png"
-          />
-          <source
-            srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x"
-            type="image/webp"
-          />
-          <img src="images/ipad@2x.webp" alt="ipad" />
-        </picture>
-        <ul class="list">
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#snap"></use>
+      <div class="container">
+        <div class="card testimonial">
+          <div class="grid grid--cols-2">
+            <div class="testimonial__image">
+              <img
+                src="images/testimonial.jpg"
+                alt="A happy, smiling customer"
+              />
+              <span class="icon-container icon-container--accent">
+                <svg class="icon icon--white icon--small">
+                  <use xlink:href="images/sprite.svg#quotes"></use>
                 </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">Easy start & Managed Updates</h3>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam,
-                  ex? Dolores eligendi error eum ipsam corporis alias
-                  voluptatibus! Libero, debitis.
-                </p>
-              </div>
+              </span>
             </div>
-          </li>
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#growth"></use>
-                </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">Staging, GIT & WP-CLI</h3>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam,
-                  ex? Dolores eligendi error eum ipsam corporis alias
-                  voluptatibus! Libero, debitis.
+            <div class="testimonial__quote">
+              <blockquote class="quote">
+                <p class="quote__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                  voluptatum quae maxime magnam laboriosam harum reiciendis
+                  aperiam eveniet expedita dicta?
                 </p>
-              </div>
+                <footer>
+                  <div class="media">
+                    <div class="media__image quote__line">
+                      <svg class="icon icon--primary">
+                        <use xlink:href="images/sprite.svg#line"></use>
+                      </svg>
+                    </div>
+                    <div class="media__body">
+                      <h3 class="media__title quote__author">John Smith</h3>
+                      <p class="quote__organization">ABC Company</p>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
             </div>
-          </li>
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#wordpress"></use>
-                </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">Dynamic Caching & More</h3>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam,
-                  ex? Dolores eligendi error eum ipsam corporis alias
-                  voluptatibus! Libero, debitis.
-                </p>
-              </div>
-            </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </section>
     <script src="js/main.js"></script>
